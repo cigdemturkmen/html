@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            margin: 0;
+            padding:0;
+        }
+
+        div {
+            /*bütün divlerde bir stil olmasını isterseniz bu şekilde seçebilirsiniz.*/
+            /*border: dashed 2px #000000;*/
+            border: solid 2px #000000;
+        }
+        .header {
+            height: 150px;
+            width:1400px;
+            background-color:aquamarine;
+            margin: auto;
+        }
+
+        .alignCenter {
+            text-align: center;
+            
+        }
+
+        .leftSide {
+            height: 550px;
+            width: 500px;
+            background-color: antiquewhite;
+            float: left;
+            margin: 5px;
+        }
+
+        .rightSide {
+            height: 550px;
+            width: 825px;
+            background-color: burlywood;
+            float:left;
+        }
+
+        .floatLeft {
+            float: left;
+            margin: 10px;
+            height: 200px;
+            width: 200px;
+            border-radius:15px;
+            background-color:blue
+        }
+
+        #boxes {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="alignCenter">WELCOME!</h1>
+    </div> <hr />
+
+    <div class="leftSide">
+        <img class="alignCenter" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBbR4XugZaJw1KPtSLk8RHSzyZ02ywmUC1PA&usqp=CAU" alt="Eski kitap" />
+    </div>
+
+    <div class="rightSide">
+
+        <div id="boxes">
+            <div>
+                <div class="floatLeft"></div>
+                <div class="floatLeft"></div>
+                <div class="floatLeft"></div>
+            </div>
+            <div>
+                <div class="floatLeft"></div>
+                <div class="floatLeft"></div>
+                <div class="floatLeft"></div>
+            </div>
+        </div>
+        
+
+    </div>
+</body>
+</html>

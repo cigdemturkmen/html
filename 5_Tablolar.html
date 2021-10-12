@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Tablolar</h1>
+
+    <p>
+        table etiketi ile tablo yapısı kurabiliriz. tablo içindeki satırlar tr, sütunlar ya da cell dediğimiz hücreler için td, başlık için th kullanıyoruz.
+    </p>
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>        
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>""
+            <td>7</td>
+            <td>8</td>
+        </tr>
+    </table>
+
+    thead, tbody, tfooter
+
+    <!------------------------------------------------------------------------------------------------->
+    <table border="1">
+        <tr>
+            <!--<th>isim</th><th>şehir</th><th>hayvan</th>-->
+            <th colspan="3">Başlık</th>  <!--test rowspan too-->
+        </tr>
+        <tr>
+        <td>ali</td><td>ankara</td><td>atmaca</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th colspan="3">Tablo Başlığı</th>
+        </tr>
+        <tr>
+            <td rowspan="2">test1</td>
+            <td>test2</td>
+            <td>test3</td>
+        </tr>
+        <tr>
+            <td>test1</td>
+            <td>test2</td>
+            <td>test3</td>
+        </tr>
+    </table>
+</body>
+</html>
